@@ -39,7 +39,7 @@ public class ChangeModel : MonoBehaviour
         newObj.transform.position = this.gameObject.transform.position;
         newObj.transform.localScale = this.gameObject.transform.localScale;*/
 
-        //
+        //生成する(リストからPrefabを読み込む、)
         Instantiate(SetModels[i], this.gameObject.transform.position,this.gameObject.transform.rotation);
 
     }
